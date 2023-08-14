@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto';
+    width:fit-content;
+}
+
+p{
+    font-size: 1.5rem;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: -1.5rem;
+}
+
+nav{
+    margin: 5rem 0;
+}
+a{
+    text-decoration: none;
+    background-color: rgb(97, 68, 192);
+    padding: 2rem 1rem;
+    margin: 0 1rem;
+    border-radius: 5px;
+    color: white;
+}
