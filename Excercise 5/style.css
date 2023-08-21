@@ -11,9 +11,22 @@ p{
     font-size: 1.5rem;
     width: fit-content;
     margin: auto;
-    margin-bottom: -1.5rem;
+    background-color: white;
+    position: absolute;
+    top:0;
+    left:25rem;
+    z-index: 1;
 }
 
+#line{
+    background-color: black;
+    width: 50rem;
+    height: 2px;
+    position: absolute;
+    top: 1rem;
+    left:13rem;
+    background-color: #339999;
+}
 nav{
     margin: 5rem 0;
 }

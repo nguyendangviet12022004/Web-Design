@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+nav{
+    display: flex;
+    background-color: #0F0F0F;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    width: 100%;
+}
+/* logo section*-------------------------------------------------------------/
+/*General logo*/
+.logo{
+    display: inline-block;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo i{
+    display: inline-block;
+    padding: 0;
+    font-size: 1.5rem;
+    color: red;
+}
+
+/* Menu*/
+.logo .menu{
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+    color: white;
+}
+.logo .menu:hover{
+    border-radius: 50%;
+    background-color: #272727;
+    
+}
+
+/*Word Youtube*/
+.logo p{
+    display: inline-block;
+    font-size: 1.5rem;
+    color: white;
+}
+.logo p sup{
+    font-weight: lighter;
+    opacity: 0.5;
+}
+
+/*searchSection-----------------------------------------------------------*/
+.search{
+    display: inline-flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    width: 50rem;
+}
+.search form{
+    display: inline-block;
+    border: 1px solid #303030;
+    border-radius: 10rem;
+}
+.search form input{
+    width: 40rem;
+    padding: 0.3rem 1rem;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 10rem 0 0 10rem;
+    background-color: #0F0F0F;
+    color: white;
+}
+
+.search form button{
+    padding: 0.3rem 1rem;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 0 10rem 10rem 0;
+    background-color: #222222;
+    color: white;
+}
+
+.search .fa-microphone{
+    background-color: #222222;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.6rem;
+    border-radius: 50%;
+    color: white;
+}
+/*User Section------------------------------------------------------------*/
+
+
+.user{
+    display: inline-flex;
+    width: 20rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user i{
+    color: white;
+    font-size:1.5rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+
+}
+
+.user i:hover{
+    background-color: #272727;
+}

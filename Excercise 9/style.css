@@ -6,9 +6,35 @@
     margin: 0;
     font-family: 'Roboto';
     text-decoration: none;
+    font-weight: lighter;
 }
-
+html{
+    height: 200vh;
+    background-image: url(Background.png);
+    background-attachment: fixed;
+}
+div{
+    text-align: center;
+    color: white;
+    background-image: url(Education.png);
+    width: fit-content;
+    position: relative;
+    margin:auto
+}
+i{
+    font-size: 2rem;
+}
 li{
     text-align: center;
     display: inline-block;
+    margin: 2rem;
+    list-style: none;
+}
+figcaption{
+    margin: 1rem 0;
+}
+
+figcaption:nth-child(2)
+{
+    font-size: 2rem;
 }
