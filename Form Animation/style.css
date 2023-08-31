@@ -45,3 +45,8 @@ body{
     top: -9px;
     transition: top .3s;
 }
+
+.form input:visited ~lable{
+    top:-9px;
+    transform: top .3s;
+}

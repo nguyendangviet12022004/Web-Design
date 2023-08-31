@@ -1,0 +1,12 @@
+.sticky{
+    height: 20vh;
+    position: sticky;
+    background-color: green;
+    top:0;
+}
+.container{
+    height: 300vh;
+}
+body{
+    height: 500vh;
+}
