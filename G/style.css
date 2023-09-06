@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+header{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 4rem;
+}
+
+h2{
+    margin-bottom: 2rem;
+}
+
+p{
+    line-height: 1.75rem;
+    color: rgb(144, 144, 144);
+    margin-bottom: 2rem;
+}
+
+main{
+    display: flex;
+}
+
+/*Aside*/
+aside{
+    min-width: 40%;
+    padding: 0 0 0 2rem;
+    margin: 0 3rem 1px 1rem;
+    box-shadow: 1px 1px 100px 3px grey;
+}
+
+/*article*/
+.bold{
+    font-weight: 900;
+}
+.signature{
+    color:rgb(163, 180, 205) ;
+}
+

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+h3{
+    margin-bottom: 2rem;
+}
+
+p{
+    line-height: 2rem;
+}
+#comment{
+    display: grid;
+    align-content: start;
+    row-gap: 2rem;
+}
+#comment > div{
+    background-color: rgb(247, 247, 247);
+    padding: 1rem;
+}
+
+#comment > div span{
+    color: rgb(162, 183, 13);
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info i{
+    height: fit-content;
+    border: 1px solid black;
+    font-size: 2rem;
+    padding: 2px;
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+#link p,a{
+    color: rgb(80, 80, 80);
+}
+
+#link{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 5rem 3rem 10rem 3rem;
+}
+
+/*Contact*/
+#contact{
+    width: 30%;
+    min-width: 20rem;
+}
+#contact > p{
+    margin-bottom: 2rem;
+}
+#email{
+    background-color: rgb(21, 21, 21);
+    padding: 0.25rem 1rem;
+    border: none;
+    height: 2.5rem;
+    width: 15rem;
+}
+
+#contact > form > button{
+    background-color: rgb(1, 186, 207);
+    padding: 0.25rem;
+    margin-left: -3px;
+    border: none;
+    height: 2.5rem;
+    width: 3rem;
+    color: white;
+}
+
+/*nav*/
+
+#nav{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+/*Copyright*/
+
+#copyright{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    background-color: rgb(21, 21, 21);
+    padding: 2rem;
+
+}
+#img{
+    background-color: rgb(133, 152, 204);
+    width: 190px;
+    height: 50px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.25rem;
+    color: white;
+
+}
+
+#author{
+    color: rgb(80, 80, 80);
+}
+
+
+
+/*tablet*/
+@media  screen and (max-width: 1085px) {
+    #link{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    #contact{
+        width: 100%;
+    }
+    #nav{
+        width: 100%;
+    }
+    
+}
+
+/*moblie*/
+@media screen and (max-width:1000px) {
+    #copyright{
+        grid-auto-flow: row;
+        row-gap: 3rem;
+    }
+}
