@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@100;300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h2{
+    margin-bottom: 1.5rem;
+}
+
+p{
+    color: rgb(136, 136, 136);
+}
+
+#btn{
+    font-size: 2rem;
+    border: none;
+    background-color: transparent;
+}
+
+.off{
+    color: red;
+}
+
+.on{
+    color: green;
+}
+
+body{
+    padding: 1rem;
+}
+main {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+main > div{
+    width: 30%;
+    display: grid;
+    row-gap: 2rem;
+}
+
+main > div > .img{
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(222, 164, 222);
+    color: white;
+    font-size: 3rem;
+    font-weight: 100;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+main > div  p.comment-info{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+main > div > a{
+    width: fit-content;
+    text-decoration: none;
+    color:rgb(129, 129, 129) ;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+main > div > a:hover{
+    transform: translateY(-10px);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+main > div > .img:hover{
+    transform: rotateX(380deg);
+    transition: all 2s;
+}
+
+
+@media screen and (max-width: 890px){
+    main{
+        flex-direction: column;
+        row-gap: 5rem;
+    }
+    main > div{
+        width: 100%;
+    }
+    
+}

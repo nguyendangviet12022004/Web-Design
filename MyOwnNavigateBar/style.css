@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@100;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    display: block;
+    width: 100%;
+    height: 3rem;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+a:hover:not(#dropList > a)
+{
+    font-size: 1.5rem;
+    transition-property: font-size;
+    transition-duration: 1s;
+}
+
+i{
+    font-size: 1rem;
+}
+ul{
+    list-style: none;
+}
+
+#nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    position: fixed;
+    width: 100%;
+    top:0
+}
+
+/*dropLIst*/
+
+
+
+#dropContent{
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+#dropContent.on{
+    transform: scaleY(1);
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+#dropContent.off{
+    transform: scaleY(0);
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+main{
+    margin-top: 3.5rem;
+    color: blue;
+}
